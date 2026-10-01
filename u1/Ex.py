@@ -17,13 +17,57 @@ else:
 
 def factorial(n):
     result = 1
-    for i in range(1, n + 1):
+    for i in range(1, n +1):
         result *= i
     return result
 
-print(factorial(6))
+print(factorial(5))
 
-# Ejercicio 4. Algoritmo que muestre todos los números pares que hay entre 0 y
+def fact(n):
+    if n == 0 or n == 1:
+        return 1 # caso base
+    else:
+        return n*fact(n-1) # Llamada recursiva
+
+print(fact(5))
+
+# Ejercicio fibonacci.
+
+# Fibonacci iterativo
+def fibonacci(n):
+    penultimo = 0
+    ultimo = 1
+    if n == 1:
+        print(penultimo)
+    elif n == 2:
+        print(penultimo,' ',end="")
+        print(ultimo)
+    else:
+        print(penultimo,' ', end="")
+        print(ultimo,' ', end="")
+        for i in range(3, n+1):
+            nuevo = penultimo + ultimo
+            penultimo = ultimo
+            ultimo = nuevo
+            print(nuevo, ' ',end="")
+
+# Fibonacci recursivo
+def recur_fibonacci(n):
+   if n <= 1:
+       return n
+   else:
+       return(recur_fibonacci(n-1) + recur_fibonacci(n-2))
+
+num = int(input("Introduce un número: "))
+fibonacci(num)
+print('')
+
+for i in range(0, num):
+    print(recur_fibonacci(i),' ',end="")
+
+
+
+    # Ejercicio 4. Algoritmo que muestre todos los números pares que hay entre 0 y
 # un número leído por teclado. Mostrar también la suma de los números pares
 # justo después de la lista de números.
 
@@ -96,10 +140,5 @@ while intentos < 3 and not acertado:
     else:
         intentos += 1
         print("Clave incorrecta. Te quedan", 3 - intentos, "intentos")
-
-
-
-
-
 
 
