@@ -2,7 +2,7 @@
 # comprobar si una frase es un palíndromo. Por ejemplo, “yo hago yoga hoy”.
 
 def esPalindromo(cadena):
-    cadena_limpia = " ".join(cadena.split())
+    cadena_limpia = "".join(cadena.split()).lower()
     if cadena_limpia == cadena_limpia[::-1]:
         return True
     else:
