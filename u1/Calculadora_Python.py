@@ -1,3 +1,4 @@
+# FUNCION SUMA
 def sumar():
     print("Has elegido sumar.")
     num1 = float(input("Ingresa el primer número: "))
@@ -5,6 +6,7 @@ def sumar():
 
     return num1 + num2
 
+# FUNCION RESTA
 def restar():
     print("Has elegido restar.")
     num1 = float(input("Ingresa el primer número: "))
@@ -12,6 +14,7 @@ def restar():
 
     return num1 - num2
 
+# FUNCION MULTIPLICACION
 def multiplicar():
     print("Has elegido multiplicar.")
     num1 = float(input("Ingresa el primer número: "))
@@ -23,10 +26,16 @@ def multiplicar():
 
     return resultado
 
+# FUNCION DIVISION
 def dividir():
     print("Has elegido dividir.")
     num1 = float(input("Ingresa el primer número: "))
     num2 = float(input("Ingresa el segundo número: "))
+
+    if num1 < 0 or num2 < 0:
+
+        print("Solo se admiten números positivos.")
+        return None
 
     resultado = 0
     while num1 >= num2:
@@ -36,6 +45,7 @@ def dividir():
     print(f"Cociente: {resultado}, resto: {num1}")
     return resultado
 
+# MENU CALCULADORA
 while True:
     operacion = input("Elige una operación (1. sumar, 2. restar, 3. multiplicar, 4. dividir, 5. salir): ")
 
