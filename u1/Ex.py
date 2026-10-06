@@ -65,8 +65,6 @@ print('')
 for i in range(0, num):
     print(recur_fibonacci(i),' ',end="")
 
-
-
     # Ejercicio 4. Algoritmo que muestre todos los números pares que hay entre 0 y
 # un número leído por teclado. Mostrar también la suma de los números pares
 # justo después de la lista de números.
@@ -85,7 +83,6 @@ print("Suma de los pares:", suma)
 # un –1, por ejemplo: 5,3,0,2,4,4,20,16,2,3,6,0,……,-1; Realizar el algoritmo que
 # calcule la media aritmética. Suponemos que el usuario no insertara números
 # negativos.
-
 
 
 # Ejercicio 6. Algoritmo que lea un número entero (altura) y a partir de él cree una
