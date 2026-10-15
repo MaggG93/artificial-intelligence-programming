@@ -1,0 +1,26 @@
+<catalog>
+    <book id="bk101" category="ficcion">
+        <title>Cien años de soledad</title>
+        <author>Gabriel García Márquez</author>
+        <price currency="EUR">18.99</price>
+        <stock>12</stock>
+    </book>
+    <book id="bk102" category="tecnologia">
+        <title>Python Crash Course</title>
+        <author>Eric Matthes</author>
+        <price currency="USD">29.99</price>
+        <stock>5</stock>
+    </book>
+    <book id="bk103" category="tecnologia">
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <price currency="EUR">32.00</price>
+        <stock>0</stock>
+    </book>
+    <book id="bk104" category="tecnologia">
+        <title>Designing Data-Intensive Applications</title>
+        <author>Martin Kleppmann</author>
+        <price currency="EUR">35.50</price>
+        <stock>8</stock>
+    </book>
+</catalog>
