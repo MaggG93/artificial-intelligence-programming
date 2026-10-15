@@ -1,0 +1,23 @@
+<victories>
+
+    <!-- PIEDRA -->
+    <victory choice="Rock" against="Scissors"> Piedra gana a tijeras. </victory>
+    <victory choice="Rock" against="Lizard"> Piedra gana a lagarto. </victory>
+
+    <!-- LAGARTO -->
+    <victory choice="Lizard" against="Spock"> Lagarto gana a Spock. </victory>
+    <victory choice="Lizard" against="Paper"> Lagarto gana a papel. </victory>
+
+    <!-- SPOCK -->
+    <victory choice="Spock" against="Scissors"> Spock gana a tijeras. </victory>
+    <victory choice="Spock" against="Rock"> Spock gana a piedra. </victory>
+
+    <!-- TIJERAS -->
+    <victory choice="Scissors" against="Paper"> Tijeras gana a papel. </victory>
+    <victory choice="Scissors" against="Lizard"> Tijeras gana a lagarto. </victory>
+
+    <!-- PAPEL -->
+    <victory choice="Paper" against="Rock"> Papel gana a piedra. </victory>
+    <victory choice="Paper" against="Spock"> Papel gana a Spock. </victory>
+    
+</victories>

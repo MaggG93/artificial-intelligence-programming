@@ -1,0 +1,23 @@
+<defeats>
+
+    <!-- PIEDRA -->
+    <defeat choice="Rock" against="Paper"> Papel gana a piedra. </defeat>
+    <defeat choice="Rock" against="Spock"> Spock gana a piedra. </defeat>
+
+    <!-- LAGARTO -->
+    <defeat choice="Lizard" against="Rock"> Piedra gana a lagarto. </defeat>
+    <defeat choice="Lizard" against="Scissors"> Tijeras gana a lagarto. </defeat>
+
+    <!-- SPOCK -->
+    <defeat choice="Spock" against="Lizard"> Lagarto gana a Spock. </defeat>
+    <defeat choice="Spock" against="Paper"> Papel gana a Spock. </defeat>
+
+    <!-- TIJERAS -->
+    <defeat choice="Scissors" against="Rock"> Piedra gana a tijeras. </defeat>
+    <defeat choice="Scissors" against="Spock"> Spock gana a tijeras. </defeat>
+
+    <!-- PAPEL -->
+    <defeat choice="Paper" against="Scissors"> Tijeras gana a papel. </defeat>
+    <defeat choice="Paper" against="Lizard"> Lagarto gana a papel. </defeat>
+
+</defeats>
